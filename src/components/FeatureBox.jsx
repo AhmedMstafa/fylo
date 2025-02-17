@@ -2,7 +2,7 @@ export default function FeatureBox({ title, desc, icon }) {
   return (
     <div className="text-white element-center flex-col text-center">
       <img
-        src={`/src/assets/images/${icon}`}
+        src={`/images/${icon}`}
         alt="icon-img"
         className="w-[80px] object-contain"
       />
